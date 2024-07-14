@@ -1,0 +1,24 @@
+{
+  "name": "my-money-tracker",
+  "version": "1.0.0",
+  "description": "Backend of My Money Tracker",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "node server.js",
+    "build:server": "echo \"No Build Specified\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarioCalandra/my-money-tracker.git"
+  },
+  "author": "Mario Calandra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarioCalandra/my-money-tracker/issues"
+  },
+  "homepage": "https://github.com/MarioCalandra/my-money-tracker#readme",
+  "dependencies": {
+    "koa": "^2.15.3"
+  }
+}
