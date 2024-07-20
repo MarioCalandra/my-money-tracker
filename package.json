@@ -2,8 +2,9 @@
   "name": "my-money-tracker",
   "version": "1.0.0",
   "description": "Backend of My Money Tracker",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "dev:start:server": "node server.js",
     "start:server": "node server.js",
     "build:server": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/MarioCalandra/my-money-tracker#readme",
   "dependencies": {
-    "koa": "^2.15.3"
+    "dotenv": "^16.4.5",
+    "koa": "^2.15.3",
+    "postgres": "^3.4.4"
   }
 }
